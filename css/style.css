@@ -2228,3 +2228,15 @@ textarea.input {
 #profile {
   padding: 30px 0px ;
 }
+
+.clientProfile {
+  width: 60%;
+}
+
+.have-change .no-change, .change-btn{
+  display: inline-block;
+}
+
+.changed {
+  display: none;
+}
