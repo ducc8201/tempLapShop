@@ -157,5 +157,18 @@
 		});
 	}
 
+	$(".more").css("display", "none");
+	$(document).ready(function(){
+		$(".infor-show").click(function(){
+			if($(".more").css("display") == "none") {
+				$(".more").css("display", "block");
+				$(".infor-show").html("Show Less");
+			}
+			else {
+				$(".more").css("display", "none");
+				$(".infor-show").html("Show More");
+			}
+		});
+	});
 	
 })(jQuery);
